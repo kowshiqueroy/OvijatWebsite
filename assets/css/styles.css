@@ -214,7 +214,7 @@ img{
 @media screen and (min-width: 576px){
   .home__container,{
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
+    align-items: right;
   }
 
   .about__data, 
