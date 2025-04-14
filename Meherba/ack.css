@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100vh;
+    
+    
+    }
+    .Section_top{
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+     background-image: url(rr.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+    }
+    @keyframes change{
+    0%
+    {
+    background-image: url(dd.jpg);
+    
+    
+    }
+    20%
+    {
+    background-image: url(rr.jpg);
+    
+    
+    }
+    40%
+    {
+        background-image: url(pp.png);
+        
+        
+     }
+     60%
+    {
+        background-image: url(ig.png);
+        
+        
+     }
+     100%
+     {
+         background-image: url(logo.png);
+         
+         
+      }
+    
+    
+    }
